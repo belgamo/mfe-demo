@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <h1>MFE DEMO</h1>
 
-      <div id="shareable-component" data-source="ph" />
+      <div id="shareable-component" data-surface="home" />
     </div>
   );
 }

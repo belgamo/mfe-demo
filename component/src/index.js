@@ -8,7 +8,7 @@ const mountShareableComponent = () => {
   const root = ReactDOM.createRoot(element);
 
   const props = {
-    source: element.dataset.source,
+    surface: element.dataset.surface,
   };
 
   root.render(
