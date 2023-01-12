@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "install:component": "cd component && npm i",
+    "install:container": "cd container && npm i",
     "start:component": "cd component && npm start",
     "start:container": "cd container && npm start",
     "start": "(BROWSER=none npm run start:component) & npm run start:container"
