@@ -3,7 +3,9 @@ import { useEffect } from "react";
 import useScript from "./use-script";
 
 function App() {
-  const status = useScript("http://localhost:3000/static/js/bundle.js");
+  const status = useScript(
+    "https://55xey4-3000.preview.csb.app/static/js/bundle.js"
+  );
 
   useEffect(() => {
     if (status === "ready") window.mountShareableComponent();
