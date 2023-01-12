@@ -1,0 +1,22 @@
+{
+  "name": "mfe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install:component": "cd component && npm i",
+    "install:container": "cd container && npm i",
+    "start:component": "cd component && npm start",
+    "start:container": "cd container && npm start",
+    "start": "(BROWSER=none npm run start:component) & npm run start:container"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belgamo/mfe-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belgamo/mfe-demo/issues"
+  },
+  "homepage": "https://github.com/belgamo/mfe-demo#readme"
+}
